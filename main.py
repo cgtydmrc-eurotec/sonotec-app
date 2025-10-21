@@ -448,7 +448,7 @@ with st.expander("🎵 🔊 Airborne Sound Reduction Index Calculator", expanded
             + 10 \log_{{10}}\!\left(\frac{{{S_s:.2f}}}{{{l_0:.2f}\times {l_f:.2f}}}\right)
             """
         )
-        st.latex(rf"\Rightarrow R_{ij,w} = {R_ij_w:.2f}\ \mathrm{{dB}}")
+        st.latex(rf"\Rightarrow R_{{ij,w}} = {R_ij_w:.2f}\ \mathrm{{dB}}")
         st.success(f"Result: $R_{{ij,w}}$ = {R_ij_w:.2f} dB")
         st.markdown(rf"***Please note that the calculator performs calculations only for one transmission path. For other transmission paths, the calculations should be repeated with relevant input values..!")
 
@@ -682,4 +682,5 @@ st.markdown(
 st.caption(
     "For more information, please visit [www.eurotec.team](https://www.eurotec.team) 🌐"
 )
+
 
