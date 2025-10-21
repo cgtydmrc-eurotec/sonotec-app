@@ -673,7 +673,7 @@ st.markdown(
     <div style='background-color:#f0f2f6; padding: 15px; border-radius: 10px; text-align: center;'>
         <b>Developed by Global Technical Advisory team at E.u.r.o.Tec</b><br>
         For any queries, please contact: 
-        <a href='mailto:gta@eurotec.team'>technik@eurotec.team</a>
+        <a href='mailto:technik@eurotec.team'>technik@eurotec.team</a>
     </div>
     """,
     unsafe_allow_html=True
@@ -682,5 +682,6 @@ st.markdown(
 st.caption(
     "For more information, please visit [www.eurotec.team](https://www.eurotec.team) 🌐"
 )
+
 
 
